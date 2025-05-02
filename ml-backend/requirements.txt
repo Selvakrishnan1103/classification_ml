@@ -1,8 +1,0 @@
-Flask
-flask-cors
-joblib
-moviepy
-Pillow
-numpy
-tensorflow
-keras
