@@ -7,3 +7,5 @@ numpy
 tensorflow
 keras
 gunicorn
+imageio
+imageio-ffmpeg
