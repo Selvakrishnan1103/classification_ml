@@ -1,11 +1,10 @@
-Flask
-flask-cors
-joblib
 moviepy
+imageio[ffmpeg]
 Pillow
 numpy
+flask
+flask-cors
+joblib
 tensorflow
 keras
 gunicorn
-imageio
-imageio-ffmpeg
