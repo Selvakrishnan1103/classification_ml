@@ -2,12 +2,7 @@ services:
   - type: web
     name: ml-classification-api
     env: python
-    buildCommand: |
-      apt-get update
-      apt-get install -y ffmpeg
-      pip install -r requirements.txt
-    startCommand: gunicorn app:app
-    envVars:
-      - key: PYTHON_VERSION
-        value: 3.11.0
+    buildCommand: "pip install -r requirements.txt && pip install moviepy"
+    startCommand: "python app.py"
+
 
